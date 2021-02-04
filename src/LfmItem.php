@@ -109,7 +109,11 @@ class LfmItem
 
     public function time()
     {
-        return $this->lfm->lastModified();
+        if ($this->lfm->directoryIsEmpty()) {
+            return now()->timestamp;
+        } else {
+            return $this->lfm->lastModified();
+        }
     }
 
     public function thumbUrl()
