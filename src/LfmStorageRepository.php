@@ -1,6 +1,6 @@
 <?php
 
-namespace UniSharp\LaravelFilemanager;
+namespace Tagable\LaravelFilemanager;
 
 use Illuminate\Support\Facades\Storage;
 use League\Flysystem\Cached\CachedAdapter;
@@ -50,7 +50,11 @@ class LfmStorageRepository
 
     public function url($path)
     {
-        return $this->disk->url($path);
+        if($this->helper->config('disk') === 'minio' or $this->helper->config('s3')) {
+            return $path;
+        } else {
+            return $this->disk->url($path);
+        }
     }
 
     public function makeDirectory()

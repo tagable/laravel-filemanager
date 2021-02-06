@@ -1,6 +1,6 @@
 <?php
 
-namespace UniSharp\LaravelFilemanager;
+namespace Tagable\LaravelFilemanager;
 
 use Illuminate\Support\Str;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
@@ -112,7 +112,7 @@ class LfmItem
         if ($this->lfm->directoryIsEmpty()) {
             return now()->timestamp;
         } else {
-            return $this->lfm->lastModified();
+            return now()->timestamp;
         }
     }
 

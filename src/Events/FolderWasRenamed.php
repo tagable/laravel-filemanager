@@ -1,6 +1,6 @@
 <?php
 
-namespace UniSharp\LaravelFilemanager\Events;
+namespace Tagable\LaravelFilemanager\Events;
 
 class FolderWasRenamed
 {

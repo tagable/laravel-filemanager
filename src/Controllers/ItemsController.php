@@ -1,12 +1,12 @@
 <?php
 
-namespace UniSharp\LaravelFilemanager\Controllers;
+namespace Tagable\LaravelFilemanager\Controllers;
 
 use Illuminate\Support\Facades\Storage;
-use UniSharp\LaravelFilemanager\Events\FileIsMoving;
-use UniSharp\LaravelFilemanager\Events\FileWasMoving;
-use UniSharp\LaravelFilemanager\Events\FolderIsMoving;
-use UniSharp\LaravelFilemanager\Events\FolderWasMoving;
+use Tagable\LaravelFilemanager\Events\FileIsMoving;
+use Tagable\LaravelFilemanager\Events\FileWasMoving;
+use Tagable\LaravelFilemanager\Events\FolderIsMoving;
+use Tagable\LaravelFilemanager\Events\FolderWasMoving;
 
 class ItemsController extends LfmController
 {

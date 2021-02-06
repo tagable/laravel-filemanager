@@ -1,5 +1,5 @@
 ## Steps to contribute
-1. Fork [unisharp/laravel-filemanager](https://github.com/UniSharp/laravel-filemanager) from GitHub.
+1. Fork [unisharp/laravel-filemanager](https://github.com/Tagable/laravel-filemanager) from GitHub.
 1. Run commands below:
 
     ```

@@ -1,16 +1,16 @@
 ## List of events
- * UniSharp\LaravelFilemanager\Events\ImageIsUploading
- * UniSharp\LaravelFilemanager\Events\ImageWasUploaded
- * UniSharp\LaravelFilemanager\Events\ImageIsRenaming
- * UniSharp\LaravelFilemanager\Events\ImageWasRenamed
- * UniSharp\LaravelFilemanager\Events\ImageIsDeleting
- * UniSharp\LaravelFilemanager\Events\ImageWasDeleted
- * UniSharp\LaravelFilemanager\Events\FolderIsRenaming
- * UniSharp\LaravelFilemanager\Events\FolderWasRenamed
- * UniSharp\LaravelFilemanager\Events\ImageIsResizing
- * UniSharp\LaravelFilemanager\Events\ImageWasResized
- * UniSharp\LaravelFilemanager\Events\ImageIsCropping
- * UniSharp\LaravelFilemanager\Events\ImageWasCropped
+ * Tagable\LaravelFilemanager\Events\ImageIsUploading
+ * Tagable\LaravelFilemanager\Events\ImageWasUploaded
+ * Tagable\LaravelFilemanager\Events\ImageIsRenaming
+ * Tagable\LaravelFilemanager\Events\ImageWasRenamed
+ * Tagable\LaravelFilemanager\Events\ImageIsDeleting
+ * Tagable\LaravelFilemanager\Events\ImageWasDeleted
+ * Tagable\LaravelFilemanager\Events\FolderIsRenaming
+ * Tagable\LaravelFilemanager\Events\FolderWasRenamed
+ * Tagable\LaravelFilemanager\Events\ImageIsResizing
+ * Tagable\LaravelFilemanager\Events\ImageWasResized
+ * Tagable\LaravelFilemanager\Events\ImageIsCropping
+ * Tagable\LaravelFilemanager\Events\ImageWasCropped
 
 
 ## How to use

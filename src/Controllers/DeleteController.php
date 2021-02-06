@@ -1,10 +1,10 @@
 <?php
 
-namespace UniSharp\LaravelFilemanager\Controllers;
+namespace Tagable\LaravelFilemanager\Controllers;
 
 use Illuminate\Support\Facades\Storage;
-use UniSharp\LaravelFilemanager\Events\ImageIsDeleting;
-use UniSharp\LaravelFilemanager\Events\ImageWasDeleted;
+use Tagable\LaravelFilemanager\Events\ImageIsDeleting;
+use Tagable\LaravelFilemanager\Events\ImageWasDeleted;
 
 class DeleteController extends LfmController
 {
